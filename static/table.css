@@ -1,0 +1,164 @@
+
+body {
+    padding-top: 90px;
+    background-image: url(http://www.joburgchiropractor.co.za/images/background.jpg);
+    /* font-family: "Poppins", sans-serif;
+    height: 100vh; */
+
+}
+hr{
+    background-color: white;
+}
+.box{
+    justify-content: center;
+    border:2px solid black;
+    width: 60%;
+    /* margin-top: 4%; */
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+.modal-body .drop-zone{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.drop-zone{
+    flex-direction: column;
+    height: 180px;
+    border: dashed 2px rgb(34, 145, 179);
+    border-radius: 22px;
+    background-color: white;
+    transition: all .2s ease;
+
+}
+.dragged.drop-zone{
+    background:rgb(188, 224, 235);
+    border-color:#00BCD4;
+}
+.icon-container{
+    width: 75px;
+    height: 100px;
+    position: relative;
+}
+.icon-container img{
+    width: 65px;
+    position: absolute;
+    transform-origin: bottom;
+  transition: transform 250ms ease-in-out;
+}
+.icon-container .center{
+    z-index: 2;
+}
+/* .icon-container .right, .icon-container .left{
+    filter: grayscale(0.5);
+    transform: scale(.9);
+} */
+.dragged .icon-container .right{
+    transform: rotate(10deg) translateX(20px) scale(.9);;
+}
+.dragged .icon-container .left{
+    transform: rotate(-10deg) translateX(-20px) scale(.9);;
+}
+    
+.modal-content{
+    padding: 10px;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.logout {
+    background: #34d934;
+    background-image: -webkit-linear-gradient(top, #34d934, #15852c);
+    background-image: -moz-linear-gradient(top, #34d934, #15852c);
+    background-image: -ms-linear-gradient(top, #34d934, #15852c);
+    background-image: -o-linear-gradient(top, #34d934, #15852c);
+    background-image: linear-gradient(to bottom, #34d934, #15852c);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 2px 10px 2px 15px;
+    text-decoration: none;
+  }
+  
+  .logout:hover {
+    background: #3cfc49;
+    background-image: -webkit-linear-gradient(top, #3cfc49, #3cfc49);
+    background-image: -moz-linear-gradient(top, #3cfc49, #3cfc49);
+    background-image: -ms-linear-gradient(top, #3cfc49, #3cfc49);
+    background-image: -o-linear-gradient(top, #3cfc49, #3cfc49);
+    background-image: linear-gradient(to bottom, #3cfc49, #3cfc49);
+    text-decoration: none;
+  }
+
+  .share{background: #3b69b8;
+  background-image: -webkit-linear-gradient(top, #3b69b8, #4198fc);
+  background-image: -moz-linear-gradient(top, #3b69b8, #4198fc);
+  background-image: -ms-linear-gradient(top, #3b69b8, #4198fc);
+  background-image: -o-linear-gradient(top, #3b69b8, #4198fc);
+  background-image: linear-gradient(to bottom, #3b69b8, #4198fc);
+  -webkit-border-radius:8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 3px 15px 3px 15px;
+  text-decoration: none;
+  }
+  .share:hover{
+    background: #1137ab;
+    background-image: -webkit-linear-gradient(top, #1137ab, #1137ab);
+    background-image: -moz-linear-gradient(top, #1137ab, #1137ab);
+    background-image: -ms-linear-gradient(top, #1137ab, #1137ab);
+    background-image: -o-linear-gradient(top, #1137ab, #1137ab);
+    background-image: linear-gradient(to bottom, #1137ab, #1137ab);
+    text-decoration: none;
+  }
+ 
+  .delete {
+    background: #de33a8;
+    background-image: -webkit-linear-gradient(top, #de33a8, #de3333);
+    background-image: -moz-linear-gradient(top, #de33a8, #de3333);
+    background-image: -ms-linear-gradient(top, #de33a8, #de3333);
+    background-image: -o-linear-gradient(top, #de33a8, #de3333);
+    background-image: linear-gradient(to bottom, #de33a8, #de3333);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 3px 15px 3px 15px;
+    text-decoration: none;
+  }
+  
+  .delete:hover {
+    background: #ab3511;
+    background-image: -webkit-linear-gradient(top, #ab3511, #db5555);
+    background-image: -moz-linear-gradient(top, #ab3511, #db5555);
+    background-image: -ms-linear-gradient(top, #ab3511, #db5555);
+    background-image: -o-linear-gradient(top, #ab3511, #db5555);
+    background-image: linear-gradient(to bottom, #ab3511, #db5555);
+    text-decoration: none;
+  }
+  
+
+  #fileInput{
+      display: none;
+  }
+  .browsbtn{
+      color: #2196f3;
+      cursor: pointer;
+  }
+
+  /* style for share modal */
+.share-link{
+    border: 2px dotted #777;
+    background: #DFDFDF;
+    padding: 5px;
+    overflow-wrap: anywhere;
+} 
