@@ -5,12 +5,13 @@
 #### Database: MongoDB
 
 ### Specifications: 
-1. It is an website model for file sharing purpose.
+1. It is an website model for file storing and sharing purpose.
 2. You can upload your files here and download them or share them with your friends via given link in.
-3. Firstly user have to login or signup, then only user get the access to traverse throughout the website. 
-4. User can upload, delete or share their files.
-5. Maximum allowed size of a uploaded file is 20MB.
-6. The allowed file types are: JPG, GIF, PNG, DOC, DOCX, XLS, XLSX, PPT, PPTX, PDF, CSV - only.
+3. Admin keeps track of which user downloaded which file.
+4. Firstly user have to login or signup, then only user get the access to traverse throughout the website. 
+5. User can upload, delete or share their files.
+6. Maximum allowed size of a uploaded file is 20MB.
+7. The allowed file types are: JPG, GIF, PNG, DOC, DOCX, XLS, XLSX, PPT, PPTX, PDF, CSV - only.
 
 ### Start the server using following steps:
 #### Set port to 5000 
