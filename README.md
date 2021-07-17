@@ -7,7 +7,7 @@
 ### Specifications: 
 1. It is an website model for file sharing purpose.
 2. You can upload your files here and download them or share them with your friends via given link in.
-3. Fistly user have to login or signup if new user, then only user get the access to travel trough out the website. 
+3. Firstly user have to login or signup if new user, then only user get the access to travel trough out the website. 
 4. User can upload, delete or share their files.
 5. Maximum allowed size of a uploaded file is 20MB.
 6. The allowed file types are: JPG, GIF, PNG, DOC, DOCX, XLS, XLSX, PPT, PPTX, PDF, CSV - only.
